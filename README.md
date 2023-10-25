@@ -29,18 +29,8 @@ root.render(
         <App />
     </React.StrictMode>
 );
-- index.html :
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>리액트로 웹 사이트 만들기</title>
-</head>
-<body>
-    <div id="root"></div>
-</body>
-</html>
+- index.html : <div id="root"></div>
+
 - 리액트 시작 : npm start
 
 ## 수정 업데이트
