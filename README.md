@@ -4,7 +4,7 @@
 가상 DOM (Virtual DOM), 컴포넌트 기반, 데이터 처리, JSX (JavaScript XML)를 이용하여 작업했습니다.
 
 ## 미리보기
-
+https://coconut-react-portfolio.netlify.app
 
 ## 리액트란?
 리액트(React)는 Facebook에서 개발한 자바스크립트 라이브러리로, 사용자 인터페이스(UI)를 구축하기 위한 오픈 소스 라이브러리입니다. 리액트는 웹 애플리케이션의 프론트엔드 부분을 개발하는 데 주로 사용되며, 단일 페이지 애플리케이션(SPA)부터 모바일 앱과 같은 다양한 플랫폼에서 UI를 만드는 데 효과적입니다.
