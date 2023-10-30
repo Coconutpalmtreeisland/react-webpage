@@ -42,7 +42,7 @@ const Text = ( props ) => {
         {textInfo.map((text, key) => (
             <div className={`text t${key+1}`} key={key}>
                 <h3 className="text__title">{ text.title }</h3>
-                <p clasclassNames="text__desc">{ text.desc }</p>
+                <p className="text__desc">{ text.desc }</p>
                 <a className="text__btn" href={ text.src }>더보기</a>
             </div>
         ))}

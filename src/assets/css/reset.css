@@ -131,6 +131,18 @@ table {
 .section {
     padding: 120px 0;
 }
+.section h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.section span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 14px;
+}
 .section > h2 {
     font-size: 50px;
     font-weight: 400;
@@ -146,6 +158,7 @@ table {
     text-align: center;
     margin-bottom: 70px;
 }
+
 .mb70 {
     margin-bottom: 70px;
 }
