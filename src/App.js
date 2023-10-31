@@ -18,12 +18,12 @@ const App = () => {
         <>
             <Header element="nexon" />
             <Main>
-                    <Slider element="nexon" title="PALMTREE ISLAND" />
-                    <Image element="nexon section" title="이미지 유형" />
-                    <ImgText element="nexon section" title="김준수 뮤지컬 작품 살펴보기" />
-                    <Card element="nexon section" title="김준수의 콘서트" />
-                    <Banner element="nexon" title="개발자 코코넛" />
-                    <Text element="nexon section" title="텍스트 유형01" />
+                <Slider element="nexon" title="PALMTREE ISLAND" />
+                <Image element="nexon section" title="이미지 유형" />
+                <ImgText element="nexon section" title="김준수 뮤지컬 작품 살펴보기" />
+                <Card element="nexon section" title="김준수의 콘서트" />
+                <Banner element="nexon" title="개발자 코코넛" />
+                <Text element="nexon section" title="텍스트 유형01" />
             </Main>
             <Footer element="nexon section gray" />
         </>

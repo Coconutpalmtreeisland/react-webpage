@@ -39,7 +39,9 @@ blockquote {
 }
 
 /* box-sizing 초기화 */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -50,7 +52,8 @@ input,
 select,
 table,
 textarea {
-    font-family: var(--main-nanum), var(--main-hallym), 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 고딕', 'dotum', '돋움';;
+    font-family: var(--main-nanum), var(--main-hallym), 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 고딕', 'dotum', '돋움';
+    ;
 }
 
 /* 링크 초기화 */
@@ -60,17 +63,25 @@ a {
 }
 
 /* 목록 초기화 */
-li, ol, ul {
+li,
+ol,
+ul {
     list-style: none;
 }
 
 /* 제목 초기화 */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
 }
 
 /* 폰트 스타일 */
-em, address {
+em,
+address {
     font-style: normal;
 }
 
@@ -81,7 +92,9 @@ img {
 }
 
 /* 보더 초기화 */
-img, fieldset, button {
+img,
+fieldset,
+button {
     border: 0;
 }
 
@@ -99,6 +112,7 @@ table {
     display: block;
     line-height: 0;
 }
+
 .clearfix::after {
     clear: both;
 }
@@ -128,29 +142,34 @@ table {
     padding: 0 20px;
     margin: 0 auto;
 }
+
 .section {
     padding: 120px 0;
 }
+
 .section h2 {
     font-size: 50px;
     text-align: center;
     margin-bottom: 70px;
 }
-.section span {
+
+.section>span {
     display: block;
     text-align: center;
     font-size: 16px;
     text-decoration: underline;
     margin-bottom: 14px;
 }
-.section > h2 {
+
+.section>h2 {
     font-size: 50px;
     font-weight: 400;
     line-height: 1;
     margin-bottom: 20px;
     text-align: center;
 }
-.section > p {
+
+.section>p {
     font-size: 22px;
     color: #666;
     line-height: 1.5;
