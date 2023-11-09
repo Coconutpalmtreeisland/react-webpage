@@ -23,29 +23,40 @@ code . 명령 프롬포트에서 해당 파일 바로 실행
 - 필요 없는 파일 삭제 (public 파일에 index.html & src 파일에 App.js, index.js 제외하고 삭제)
 - rafce : 기본 문법 나오기 --> 확장 프로그램 ES7 설치해야 함
 - App.js : 기존 내용 삭제하고 rafce
-- index.js : 아래 코드만 남기기
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
-);
-- index.html :
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>리액트로 웹 사이트 만들기</title>
-</head>
-<body>
-    <div id="root"></div>
-</body>
-</html>
+<details>
+    <summary>index.js 설정</summary>
+
+    import React from 'react';
+    import ReactDOM from 'react-dom/client';
+    import App from './App';
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+        <React.StrictMode>
+            <App />
+        </React.StrictMode>
+    );
+
+</details>
+
+<details>
+    <summary>index.html 설정</summary>
+
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>리액트로 웹 사이트 만들기</title>
+    </head>
+    <body>
+        <div id="root"></div>
+    </body>
+    </html>
+
+</details>
+
 - 리액트 시작 : npm start
 
 ## 수정 업데이트
